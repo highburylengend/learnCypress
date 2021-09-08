@@ -1,7 +1,7 @@
 describe('Percy Integration', function() {
   beforeEach(function() {
     // Load our app before starting each test case
-    cy.visit('https://www.vendhq.com');
+    cy.visit('https://www.vendhq.com/nz/');
   });
 
   it('home page', function() {
