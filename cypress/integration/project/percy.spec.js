@@ -1,7 +1,7 @@
-describe('TodoMVC', function() {
+describe('Percy Integration', function() {
   beforeEach(function() {
     // Load our app before starting each test case
-    cy.visit('vendhq.com');
+    cy.visit('https://www.vendhq.com');
   });
 
   it('home page', function() {
