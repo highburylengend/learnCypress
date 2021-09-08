@@ -1,0 +1,7 @@
+language: node_js
+
+script:
+  - yarn
+  - yarn cypress install
+  - yarn cypress verify
+  - percy exec -- cypress run --spec "cypress/integration/project/percy.spec.js"
